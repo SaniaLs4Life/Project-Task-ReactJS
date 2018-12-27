@@ -76,8 +76,7 @@ class AddProjectTask extends Component {
                         </FormItem>
                         {
                             errors.summary ? 
-                                <Alert message={errors.summary} type="error" showIcon />
-                                
+                                <Alert message={errors.summary} type="error" showIcon />                                
                             :
                                 null
                         }
