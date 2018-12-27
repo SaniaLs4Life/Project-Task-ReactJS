@@ -1,6 +1,6 @@
-**Project Task ReactJS**
-**yarn install**
-**yarn start**
+**Project Task ReactJS** <br>
+**yarn install** <br>
+**yarn start** <br> <br>
 
-**npm install**
+**npm install** <br>
 **npm start**
