@@ -4,7 +4,7 @@ import { GET_ERRORS, GET_PROJECT_TASKS, GET_PROJECT_TASK, DELETE_PROJECT_TASK } 
 export const addProjectTask = (project_task, history) => async dispatch => {
     try {
         await axios.post('http://localhost:8080/api/board', project_task)
-        history.push('/')
+        history.push('/dashboard')
         dispatch({
             type: GET_ERRORS,
             payload: {}

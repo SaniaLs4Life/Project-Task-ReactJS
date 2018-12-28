@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "antd": "^3.11.2",
+    "auth0-js": "^9.8.2",
     "axios": "^0.18.0",
     "classnames": "^2.2.6",
     "prop-types": "^15.6.2",
